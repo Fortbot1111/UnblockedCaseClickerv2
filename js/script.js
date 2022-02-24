@@ -15,7 +15,7 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 0.1;
+var acceptMoneyPerClick = 167467457;
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
@@ -34,7 +34,7 @@ var acceptedsound = true;
 var inventory = {};
 var jackpotInventory = {};
 
-var inventoryMax = 50;
+var inventoryMax = 5330;
 var inventoryCurrent = 0;
 
 var keyPrice = 2.50;
@@ -145,7 +145,7 @@ var operationCases = {
 	},
 	case21: {
 		name: "ESL One Cologne 2014 Cobblestone Souvenir Package",
-		price: 184.26,
+		price: 190.00,
 		img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk54dFBopqiqJghf1_b3cj9A4Nn4wYSJxPagMeyFw21Q68N32O3DotX021Gx_Uttaj_zJIHHJ1M5Yl6D-k_-n7lVjEgWRQ"
 	},
 	case22: {
@@ -20979,8 +20979,8 @@ var cases = {
 		},
 		restricted: {
 			weap1: {
-				name: "Souvenir Desert Eagle | Hand Cannon FN",
-				price: 248.83,
+				name: "Souvenir Desert Eagle | Hand Cannon FN (ULTRA RARE)",
+				price: 781313.83,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLP7LWnn9u5MRjjeyP8Nrw0AO3rhFuYGr0dYKXcVI8Y12EqVC5xu3rh8fqv8mfzXJlsyUq4GGdwUIWZtGMPw"
 			},
 			weap2: {
@@ -24181,9 +24181,9 @@ $(document).on('click','#btnFlip',function() {
 		} else {
 			var y = 2;
 			var z = x * y;
-			var userChoice = prompt("Do you choose T or CT?").toUpperCase();
+			var userChoice = prompt("Do you choose V or CT?").toUpperCase();
 			var coinToss = Math.random();
-			if (userChoice === "T") {
+			if (userChoice === "V") {
 				if (coinToss < 0.5) {
 					money += z;
 				} else {
